@@ -2,11 +2,25 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 
-function Page() {
+function Navbar() {
   return (
-    <div>
+    <nav>
       <img src="./react-logo.svg" alt="React Logo" width="40px" />
+    </nav>
+  );
+}
+
+function Header() {
+  return (
+    <header>
       <h1>Fun facts about React</h1>
+    </header>
+  );
+}
+
+function MainContent() {
+  return (
+    <main>
       <ul>
         <li>Was first released in 2013</li>
         <li>Was originally created by Jordan Walke</li>
@@ -14,6 +28,21 @@ function Page() {
         <li>Is maintained by Facebook</li>
         <li>Powers thousands of enterprise apps, including mobile apps</li>
       </ul>
+    </main>
+  );
+}
+
+function Footer() {
+  return <footer>ReactJS v18 Tutorial - Scrimba</footer>;
+}
+
+function Page() {
+  return (
+    <div>
+      <Navbar />
+      <Header />
+      <MainContent />
+      <Footer />
     </div>
   );
 }
