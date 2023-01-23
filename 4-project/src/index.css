@@ -42,6 +42,9 @@ nav {
 main {
     padding: 57px 27px;
     color: white;
+    background-image: url(./img/react-logo.svg);
+    background-repeat: no-repeat;
+    background-position: right 75%;
 }
 
 .main--title {
