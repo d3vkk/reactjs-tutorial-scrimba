@@ -4,8 +4,13 @@ import "./index.css";
 
 function Navbar() {
   return (
-    <nav>
-      <img src="./react-logo.svg" alt="React Logo" width="40px" />
+    <nav className="nav">
+      <img src="./react-logo.svg" alt="React Logo" className="nav-logo" />
+      <ul className="nav-items">
+        <li>Pricing</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
     </nav>
   );
 }
