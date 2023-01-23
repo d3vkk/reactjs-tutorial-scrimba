@@ -6,7 +6,7 @@ import Header from "./components/Header";
 import MainContent from "./components/MainContent";
 import Footer from "./components/Footer";
 
-function Page() {
+function App() {
   return (
     <div>
       <Navbar />
@@ -18,4 +18,4 @@ function Page() {
 }
 
 const root = createRoot(document.querySelector("#root"));
-root.render(<Page />);
+root.render(<App />);
