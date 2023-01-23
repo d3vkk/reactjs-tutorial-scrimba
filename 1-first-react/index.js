@@ -42,10 +42,10 @@ function MainContent(){
     return (<div>Main Content Component</div>)
 }
 
-ReactDOM.render(
-    <div>
-        <Navbar />
-        <MainContent />
-    </div>,
-    document.getElementById("root")
-)
+const root = ReactDOM.createRoot(document.querySelector("#root"));
+root.render(
+  <div>
+    <Navbar />
+    <MainContent />
+  </div>
+);
