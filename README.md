@@ -2,7 +2,7 @@
 
 ![ReactJS Logo](https://github.com/d3vkk/reactjs-tutorial-scrimba/blob/master/reactjs-logo.svg)
 
-ReactJS Tutorial from Scrimba Template
+ReactJS Tutorial from Scrimba
 
 ## Contribution
 
