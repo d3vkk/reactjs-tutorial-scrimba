@@ -4,6 +4,8 @@
 
 ReactJS Tutorial from Scrimba
 
+[Scrimba Course](https://scrimba.com/learn/learnreact)
+
 ## Contribution
 
 To contribute, [use this guide](https://github.com/d3vkk/open-source/blob/master/CONTRIBUTING.md)
